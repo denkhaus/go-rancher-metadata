@@ -1,6 +1,6 @@
 # Go bindings for Rancher-metadata
 
-This library is incomplete, but implements a variety of calls against  [rancher-metadata](https://github.com/rancher/rancher-metadata) service
+This library is incomplete, but implements a variety of calls against  [rancher-metadata](https://github.com/denkhaus/rancher-metadata) service
 
 #Example usage
 
@@ -10,8 +10,8 @@ package main
 import (
 	"time"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/rancher/go-rancher-metadata/metadata"
+	"github.com/sirupsen/logrus"
+	"github.com/denkhaus/go-rancher-metadata/metadata"
 )
 
 const (
